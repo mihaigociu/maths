@@ -138,6 +138,8 @@ $$S = 2 \times (1+2+3+...+10) = 2 \times \frac{10 \times 11}{2} = 2 \times 55 = 
 
 Sunt **50 de numere impare** de la 1 la 99.
 
+> **De ce sunt 50?** Fiecare număr impar are un „prieten" par chiar după el: 1→2, 3→4, 5→6, ..., 99→100. Numerele de la 1 la 100 se împart perfect în 50 de perechi (impar + par), deci sunt exact **50 de numere impare**.
+
 Perechile: 1+99=100, 3+97=100, ..., 49+51=100 → 25 de perechi
 
 $$S = 25 \times 100 = \mathbf{2500}$$
