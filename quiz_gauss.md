@@ -28,6 +28,8 @@ $$S = \frac{n \times (n + 1)}{2}$$
 
 Adică înmulțești ultimul număr cu următorul lui și împarți la 2.
 
+> **Cum funcționează pentru n impar?** Când n este impar, nu poți forma perechi perfecte — rămâne un număr singur la mijloc. De exemplu, pentru 1 la 11: perechile 1+11, 2+10, 3+9, 4+8, 5+7 dau fiecare 12, iar 6 rămâne la mijloc. Numărul din mijloc este exact jumătate din suma unei perechi (12÷2=6), deci este ca o „jumătate de pereche": 5,5 perechi × 12 = **66**. Formula funcționează la fel: n/2 × (n+1) = 5,5 × 12 = 66 ✓
+
 </details>
 
 ---
