@@ -132,7 +132,25 @@ $$S = 2 \times (1+2+3+...+10) = 2 \times \frac{10 \times 11}{2} = 2 \times 55 = 
 
 ---
 
-## Întrebarea 10 ⭐ (Provocare)
+## Întrebarea 10
+**Cât face suma multiplilor de 3 de la 3 la 30? (3+6+9+...+30)**
+
+<details>
+<summary>Răspuns</summary>
+
+Fiecare număr din șir este de 3 ori un număr din șirul 1, 2, ..., 10:
+
+$$S = 3 \times (1+2+3+...+10) = 3 \times \frac{10 \times 11}{2} = 3 \times 55 = \mathbf{165}$$
+
+> **Același lucru cu perechile lui Gauss:** 3+30=33, 6+27=33, ..., 15+18=33 → 5 perechi × 33 = **165** ✓
+
+Trucul general: dacă seria merge din k în k (din 2 în 2, din 3 în 3 etc.), dai factor comun k și aplici formula lui Gauss pentru șirul 1,2,...,n.
+
+</details>
+
+---
+
+## Întrebarea 12 ⭐ (Provocare)
 **Cât face suma numerelor impare de la 1 la 99? (1+3+5+...+99)**
 
 <details>
